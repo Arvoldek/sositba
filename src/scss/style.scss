@@ -1,0 +1,57 @@
+// colors
+$primary-color-dark: #2c3e50;
+$primary-color-light: #2980b9;
+$color-white: #fff;
+$color-gray-1: #555;
+
+// font sizes
+$default-font-size: 1.5rem;
+
+// General styles
+html{
+  font-size: 62.5%;
+}
+body{
+  color: $color-gray-1;
+}
+
+// Navbar
+nav{
+  font-size: $default-font-size;
+  .navbar-brand{
+    font-size: 2rem;
+  }
+}
+
+// Header styling
+#main-header{
+  height: 75vh;
+  width: 100%;
+  background-image:
+  linear-gradient(to bottom right,
+  rgba($primary-color-light, .7), rgba($primary-color-dark, .7)),
+  url(../img/hero.jpg);
+  background-size: cover;
+  color: $color-white;
+  font-size: $default-font-size;
+  position: relative;
+
+  .text-box{
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    padding: 2rem;
+
+    &__text{
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-style: italic;
+    }
+
+    &__btns{
+      .btn-lg{
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #555; }
+
+nav {
+  font-size: 1.5rem; }
+  nav .navbar-brand {
+    font-size: 2rem; }
+
+#main-header {
+  height: 75vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, rgba(41, 128, 185, 0.7), rgba(44, 62, 80, 0.7)), url(../img/hero.jpg);
+  background-size: cover;
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative; }
+  #main-header .text-box {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    padding: 2rem; }
+    #main-header .text-box__text {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-style: italic; }
+    #main-header .text-box__btns .btn-lg {
+      font-size: 1.6rem; }
