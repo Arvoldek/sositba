@@ -61,3 +61,17 @@ nav {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); }
     #ukazka .img-box img {
       height: 22rem; }
+
+#odbory {
+  font-size: 1.7rem; }
+  #odbory .title {
+    font-size: 2.4rem; }
+  #odbory .code {
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0;
+    font-weight: 300; }
+  #odbory .card-header {
+    height: 12rem; }
+  #odbory .card-body {
+    height: 22rem; }
