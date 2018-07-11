@@ -4,10 +4,26 @@ html {
 body {
   color: #555; }
 
+h2 {
+  text-align: center;
+  color: #2980b9;
+  font-weight: 600;
+  font-size: 3rem; }
+
+h4 {
+  font-size: 1.9rem; }
+  h4::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 15rem;
+    margin-top: .8rem;
+    background-color: #2980b9; }
+
 nav {
-  font-size: 1.5rem; }
+  font-size: 1.7rem; }
   nav .navbar-brand {
-    font-size: 2rem; }
+    font-size: 2.1rem; }
   nav #navbarNav .dropdown-menu {
     font-size: 1.4rem; }
 
@@ -17,7 +33,7 @@ nav {
   background-image: linear-gradient(to bottom right, rgba(41, 128, 185, 0.7), rgba(44, 62, 80, 0.7)), url(../img/hero.jpg);
   background-size: cover;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   position: relative; }
   #main-header .text-box {
     position: absolute;
@@ -30,3 +46,8 @@ nav {
       font-style: italic; }
     #main-header .text-box__btns .btn-lg {
       font-size: 1.6rem; }
+
+#onas {
+  font-size: 1.7rem; }
+  #onas img {
+    height: 21rem; }

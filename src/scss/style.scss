@@ -5,7 +5,7 @@ $color-white: #fff;
 $color-gray-1: #555;
 
 // font sizes
-$default-font-size: 1.5rem;
+$default-font-size: 1.7rem;
 
 // General styles
 html{
@@ -15,11 +15,32 @@ body{
   color: $color-gray-1;
 }
 
+// headings
+h2{
+  text-align: center;
+  color: $primary-color-light;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h4{
+  font-size: 1.9rem;
+
+  &::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 15rem;
+    margin-top: .8rem;
+    background-color: $primary-color-light;
+  }
+}
+
 // Navbar
 nav{
   font-size: $default-font-size;
   .navbar-brand{
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   #navbarNav{
@@ -60,4 +81,14 @@ nav{
       }
     }
   }
+}
+
+// Section onas
+#onas{
+  font-size: $default-font-size;
+
+  img{
+    height: 21rem;
+  }
+
 }
