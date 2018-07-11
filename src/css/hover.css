@@ -1003,7 +1003,7 @@
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color; }
   .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-    background-color: #2098D1;
+    background-color: #2980b9;
     color: white; }
 
 /* Back Pulse */
@@ -1037,7 +1037,7 @@
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    background-color: #2098D1;
+    background-color: #2980b9;
     background-color: #2098d1;
     color: white; }
 
@@ -1061,7 +1061,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -1098,7 +1098,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;
@@ -1135,7 +1135,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
@@ -1172,7 +1172,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1209,7 +1209,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -1248,7 +1248,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;
@@ -1287,7 +1287,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
@@ -1326,7 +1326,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1367,7 +1367,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     border-radius: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -1392,7 +1392,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #2098D1;
+  background: #2980b9;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1429,7 +1429,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #2980b9;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1478,7 +1478,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -1501,7 +1501,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #2980b9;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1552,7 +1552,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -1577,7 +1577,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #2980b9;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1628,7 +1628,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2098D1;
+    background: #2980b9;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;
@@ -1660,7 +1660,7 @@
   box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
   .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-    box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 4px #2980b9, 0 0 1px rgba(0, 0, 0, 0);
     /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Hollow */
@@ -1865,7 +1865,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1892,7 +1892,7 @@
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -1920,7 +1920,7 @@
     left: 100%;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: left;
     transition-property: left;
@@ -1947,7 +1947,7 @@
     left: 0;
     right: 100%;
     top: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1974,7 +1974,7 @@
     left: 51%;
     right: 51%;
     top: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -2002,7 +2002,7 @@
     left: 100%;
     right: 0;
     top: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: left;
     transition-property: left;
@@ -2030,7 +2030,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    border-color: #2098D1;
+    border-color: #2980b9;
     border-style: solid;
     border-width: 0;
     -webkit-transition-property: border-width;
@@ -2060,7 +2060,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
@@ -2090,7 +2090,7 @@
     left: 0;
     right: 0;
     top: 0;
-    background: #2098D1;
+    background: #2980b9;
     height: 4px;
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
