@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SOSITBA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/hover.css">
@@ -110,22 +111,30 @@
       <div class="row mb-5">
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img1.jpg" alt="school">
+            <a href="img/img1.jpg" data-toggle="lightbox">
+              <img src="img/img1.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img2.jpg" alt="school">
+            <a href="img/img2.jpg" data-toggle="lightbox">
+              <img src="img/img2.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img3.jpg" alt="school">
+            <a href="img/img3.jpg" data-toggle="lightbox">
+              <img src="img/img3.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img4.jpg" alt="school">
+            <a href="img/img4.jpg" data-toggle="lightbox">
+              <img src="img/img4.jpg" alt="school">
+            </a>
           </div>
         </div>
       </div>
@@ -133,22 +142,30 @@
       <div class="row mb-5">
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img5.jpg" alt="school">
+            <a href="img/img5.jpg" data-toggle="lightbox">
+              <img src="img/img5.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img6.jpg" alt="school">
+            <a href="img/img6.jpg" data-toggle="lightbox">
+              <img src="img/img6.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img7.jpg" alt="school">
+            <a href="img/img7.jpg" data-toggle="lightbox">
+              <img src="img/img7.jpg" alt="school">
+            </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="img-box">
-            <img src="img/img8.jpg" alt="school">
+            <a href="img/img8.jpg" data-toggle="lightbox">
+              <img src="img/img8.jpg" alt="school">
+            </a>
           </div>
         </div>
       </div>
@@ -158,6 +175,13 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+  </script>
 </body>
 </html>
 
