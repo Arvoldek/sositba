@@ -30,7 +30,7 @@ nav {
 #main-header {
   height: 75vh;
   width: 100%;
-  background-image: linear-gradient(to bottom right, rgba(41, 128, 185, 0.7), rgba(44, 62, 80, 0.7)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right, rgba(41, 128, 185, 0.7), rgba(44, 62, 80, 0.7)), url(../img/hero.jpg);
   background-size: cover;
   color: #fff;
   font-size: 1.7rem;
@@ -51,3 +51,13 @@ nav {
   font-size: 1.7rem; }
   #onas img {
     height: 21rem; }
+
+#ukazka {
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/student.jpg");
+  background-size: cover; }
+  #ukazka .img-box {
+    height: 22rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); }
+    #ukazka .img-box img {
+      height: 22rem; }

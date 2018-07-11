@@ -3,6 +3,7 @@ $primary-color-dark: #2c3e50;
 $primary-color-light: #2980b9;
 $color-white: #fff;
 $color-gray-1: #555;
+$color-black: #000;
 
 // font sizes
 $default-font-size: 1.7rem;
@@ -55,7 +56,7 @@ nav{
   height: 75vh;
   width: 100%;
   background-image:
-  linear-gradient(to bottom right,
+  linear-gradient(to right,
   rgba($primary-color-light, .7), rgba($primary-color-dark, .7)),
   url(../img/hero.jpg);
   background-size: cover;
@@ -91,4 +92,22 @@ nav{
     height: 21rem;
   }
 
+}
+
+// Section ukazka
+#ukazka{
+
+  background-image: linear-gradient(to bottom right,
+  rgba($color-white, .9), rgba($color-white, .9)), url("../img/student.jpg");
+  background-size: cover;
+
+  .img-box{
+    height: 22rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 3rem rgba($color-black, .3);
+
+    img{
+      height: 22rem;
+    }
+  }
 }
