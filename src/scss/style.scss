@@ -38,6 +38,20 @@ h4{
   }
 }
 
+h3{
+  font-size: 2.2rem;
+  text-transform: uppercase;
+
+  &::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 30rem;
+    margin-top: .8rem;
+    background-color: $color-gray-1;
+  }
+}
+
 // Navbar
 nav{
   font-size: $default-font-size;
@@ -137,4 +151,33 @@ nav{
       height: 22rem;
     }
   }
+}
+
+// Section skusky
+#skusky{
+  font-size: $default-font-size;
+  background-image: linear-gradient(to right bottom, rgba($primary-color-light, .15), rgba($primary-color-dark, .15));
+
+  .btn{
+    font-size: $default-font-size;
+    margin-top: 2rem;
+  }
+  
+  .fa{
+    font-size: 25rem;
+  }
+
+  .row{
+    border-bottom: 1px solid $color-gray-1;
+    
+
+    &:last-child{
+      border: none;
+    }
+  }
+}
+
+// Main Footer
+#main-footer{
+  font-size: $default-font-size;
 }
