@@ -23,6 +23,7 @@ h2{
   color: $primary-color-light;
   font-weight: 600;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 h4{
@@ -229,6 +230,23 @@ nav{
   .modal-footer{
     button{
       font-size: $default-font-size;
+    }
+  }
+}
+
+// Section Ubytovanie
+#ubytovanie{
+  font-size: $default-font-size;
+
+  .btn{
+    font-size: $default-font-size;
+  }
+
+  .row{
+    border-bottom: 1.2px solid $color-gray-1;
+
+    &:last-child{
+      border: none;
     }
   }
 }
