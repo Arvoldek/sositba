@@ -47,36 +47,36 @@ gulp.task('fa', function(){
   // Move Stock Files to Production folder
   gulp.task('moveStockJs', function(){
     return gulp.src('src/js/*')
-      .pipe(gulp.dest("Production/js"));
+      .pipe(gulp.dest("docs/js"));
   });
   gulp.task('moveStockFonts', function () {
     return gulp.src('src/fonts/*')
-      .pipe(gulp.dest("Production/fonts"));
+      .pipe(gulp.dest("docs/fonts"));
   });
   gulp.task('movefontcss', function () {
     return gulp.src('src/css/font-awesome.min.css')
-      .pipe(gulp.dest("Production/css"));
+      .pipe(gulp.dest("docs/css"));
   });
 
   // Move and minify html
   gulp.task('minifyHTML', function () {
     return gulp.src('src/*.html')
       .pipe(htmlmin({ collapseWhitespace: true }))
-      .pipe(gulp.dest('Production'));
+      .pipe(gulp.dest('docs'));
   });
 
   // Move and minify css
   gulp.task('minifyCSS', () => {
     return gulp.src(['src/css/hover.css', 'src/css/bootstrap.css', 'src/css/style.css'])
       .pipe(cleanCSS({ compatibility: 'ie8' }))
-      .pipe(gulp.dest('Production/css'))
+      .pipe(gulp.dest('docs/css'))
   });
 
   // Move and compress images
   gulp.task('imageMin', () =>
     gulp.src('src/img/*')
       .pipe(imagemin())
-      .pipe(gulp.dest('Production/img'))
+      .pipe(gulp.dest('docs/img'))
   );
 
 gulp.task('finishProject', ['moveStockJs','moveStockFonts', 'movefontcss', 'minifyHTML', 'minifyCSS', 'imageMin']);
