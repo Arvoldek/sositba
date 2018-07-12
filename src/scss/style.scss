@@ -250,3 +250,29 @@ nav{
     }
   }
 }
+
+#kontakt{
+  font-size: $default-font-size;
+
+  h4{
+    &::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 15rem;
+    margin-top: .42rem;
+    background-color: $primary-color-light;
+  }
+  }
+
+  form{
+    .form-group{
+      input{
+        font-size: $default-font-size;
+      }
+      textarea{
+        font-size: $default-font-size;
+      }
+    }
+  }
+}

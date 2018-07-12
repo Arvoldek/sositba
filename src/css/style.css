@@ -141,3 +141,17 @@ nav {
     border-bottom: 1.2px solid #555; }
     #ubytovanie .row:last-child {
       border: none; }
+
+#kontakt {
+  font-size: 1.7rem; }
+  #kontakt h4::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 15rem;
+    margin-top: .42rem;
+    background-color: #2980b9; }
+  #kontakt form .form-group input {
+    font-size: 1.7rem; }
+  #kontakt form .form-group textarea {
+    font-size: 1.7rem; }
