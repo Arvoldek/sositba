@@ -58,6 +58,21 @@ nav {
     #main-header .text-box__btns .btn-lg {
       font-size: 1.6rem; }
 
+#secondary-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(41, 128, 185, 0.7), rgba(44, 62, 80, 0.7)), url(../img/sec-head.jpg);
+  background-size: cover;
+  color: #fff;
+  font-size: 1.7rem;
+  position: relative; }
+  #secondary-header .text-box {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 2rem; }
+
 #onas {
   font-size: 1.7rem; }
   #onas img {

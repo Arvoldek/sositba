@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SOSITBA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="index.html" class="navbar-brand hvr-underline-from-center">SOSITBA</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-3">
+          <a href="index.html" class="nav-link hvr-underline-from-left">DOMOV</a>
+        </li>
+        <li class="nav-item mr-3 hvr-underline-from-left">
+          <a href="zbor.html" class="nav-link active">PEDAGOGICKÝ ZBOR</a>
+        </li>
+        <li class="nav-item mr-3 hvr-underline-from-left">
+          <a href="poriadok.html" class="nav-link">ŠKOLSKÝ PORIADOK</a>
+        </li>
+        <li class="nav-item mr-3 hvr-underline-from-left">
+          <a href="ubytovanie.html" class="nav-link">UBYTOVANIE</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="secondary-header">
+    <div class="text-box">
+      <h1 class="display-1">PEDAGOGICKÝ ZBOR</h1>
+    </div>
+  </header>
+
+  <footer id="main-footer" class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          copyright&copy; 2018
+          <small class="ml-4">creaded by Filip Parák</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+</body>
+
+</html>
+
+<!-- Github repository: git remote add origin https://github.com/Arvoldek/sositba.git -->

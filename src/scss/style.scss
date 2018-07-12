@@ -99,6 +99,27 @@ nav{
   }
 }
 
+#secondary-header{
+  height: 50vh;
+  width: 100%;
+  background-image:
+  linear-gradient(to right,
+  rgba($primary-color-light, .7), rgba($primary-color-dark, .7)),
+  url(../img/sec-head.jpg);
+  background-size: cover;
+  color: $color-white;
+  font-size: $default-font-size;
+  position: relative;
+
+  .text-box{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+  }
+}
+
 // Section onas
 #onas{
   font-size: $default-font-size;
