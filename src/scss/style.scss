@@ -202,3 +202,33 @@ nav{
 #main-footer{
   font-size: $default-font-size;
 }
+
+// Section table
+#section-table{
+  font-size: $default-font-size;
+
+  .fa{
+    font-size: 2.3rem;
+  }
+}
+
+// Modals
+
+.modal{
+  font-size: $default-font-size;
+
+  .modal-header{
+    h5{
+      font-size: 2rem;
+    }
+    button{
+      font-size: 2rem;
+    }
+  }
+
+  .modal-footer{
+    button{
+      font-size: $default-font-size;
+    }
+  }
+}

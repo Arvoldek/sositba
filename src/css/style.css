@@ -117,3 +117,17 @@ nav {
 
 #main-footer {
   font-size: 1.7rem; }
+
+#section-table {
+  font-size: 1.7rem; }
+  #section-table .fa {
+    font-size: 2.3rem; }
+
+.modal {
+  font-size: 1.7rem; }
+  .modal .modal-header h5 {
+    font-size: 2rem; }
+  .modal .modal-header button {
+    font-size: 2rem; }
+  .modal .modal-footer button {
+    font-size: 1.7rem; }
