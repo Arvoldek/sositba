@@ -170,7 +170,7 @@ nav {
 
 @media only screen and (max-width: 575px) {
   #main-header {
-    height: 15vh;
+    height: 30vh;
     font-size: 1.7rem; }
     #main-header .text-box-2 {
       position: absolute;
