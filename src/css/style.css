@@ -169,10 +169,11 @@ nav {
       height: 12rem; } }
 
 @media only screen and (max-width: 575px) {
-  #main-header {
+  #main-header, #secondary-header {
     height: 24vh;
+    width: 100%;
     font-size: 1.7rem; }
-    #main-header .text-box-2 {
+    #main-header .text-box-2, #secondary-header .text-box-2 {
       width: 100%;
       position: absolute;
       top: 70%;

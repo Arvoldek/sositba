@@ -307,8 +307,9 @@ $cards-3: "only screen and (max-width : 404px)";
 }
 
 @media #{$small} {
-  #main-header{
+  #main-header, #secondary-header{
     height: 24vh;
+    width: 100%;
     font-size: $default-font-size;
     .text-box-2{
       width: 100%;
