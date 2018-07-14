@@ -276,3 +276,87 @@ nav{
     }
   }
 }
+
+
+// Media queries
+$medium: "only screen and (max-width : 860px)";
+$small: "only screen and (max-width : 575px)";
+$cards-2: "only screen and (max-width : 990px)";
+$cards-1: "only screen and (max-width : 1188px)";
+$cards-3: "only screen and (max-width : 404px)";
+
+@media #{$medium} {
+  #main-header{
+    .text-box{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  }
+  #ukazka{
+  .img-box{
+    height: 12rem;
+
+    img{
+      height: 12rem;
+    }
+    }
+  }
+}
+
+@media #{$small} {
+  #main-header{
+    height: 15vh;
+    font-size: $default-font-size;
+    .text-box-2{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+@media #{$cards-1} {
+  #odbory{
+  .card{
+    &-header{
+      height: 12rem;
+    }
+
+    &-body{
+      height: 33rem;
+    }
+  }
+}
+}
+
+@media #{$cards-2} {
+  #odbory{
+  .card{
+    &-header{
+      height: 12rem;
+    }
+
+    &-body{
+      height: 15rem;
+    }
+  }
+}
+}
+
+@media #{$cards-3} {
+  #odbory{
+  .card{
+    &-header{
+      height: 12rem;
+    }
+
+    &-body{
+      height: 20rem;
+    }
+  }
+}
+}

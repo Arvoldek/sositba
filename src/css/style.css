@@ -155,3 +155,43 @@ nav {
     font-size: 1.7rem; }
   #kontakt form .form-group textarea {
     font-size: 1.7rem; }
+
+@media only screen and (max-width: 860px) {
+  #main-header .text-box {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #ukazka .img-box {
+    height: 12rem; }
+    #ukazka .img-box img {
+      height: 12rem; } }
+
+@media only screen and (max-width: 575px) {
+  #main-header {
+    height: 15vh;
+    font-size: 1.7rem; }
+    #main-header .text-box-2 {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
+
+@media only screen and (max-width: 1188px) {
+  #odbory .card-header {
+    height: 12rem; }
+  #odbory .card-body {
+    height: 33rem; } }
+
+@media only screen and (max-width: 990px) {
+  #odbory .card-header {
+    height: 12rem; }
+  #odbory .card-body {
+    height: 15rem; } }
+
+@media only screen and (max-width: 404px) {
+  #odbory .card-header {
+    height: 12rem; }
+  #odbory .card-body {
+    height: 20rem; } }
